@@ -1,0 +1,46 @@
+{
+  "name": "@dsh-external/dsh-ae-plugin",
+  "version": "0.1.0",
+  "description": "DSH × After Effects 自动化插件：随包注册 ae-video-automation 技能，让 AI 通过 ExtendScript 驱动 AE 建合成、做关键帧动画、加特效与渲染导出。",
+  "private": false,
+  "author": "sixtysevenlf",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sixtysevenlf/dsh-ae-plugin.git"
+  },
+  "homepage": "https://github.com/sixtysevenlf/dsh-ae-plugin#readme",
+  "bugs": {
+    "url": "https://github.com/sixtysevenlf/dsh-ae-plugin/issues"
+  },
+  "keywords": [
+    "dsh",
+    "after-effects",
+    "extendscript",
+    "video",
+    "motion-graphics",
+    "skill"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module",
+  "main": "./lib/index.js",
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "license": "MIT",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "exports": {
+    ".": {
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  }
+}

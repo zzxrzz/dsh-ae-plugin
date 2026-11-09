@@ -1,0 +1,7 @@
+# @dsh-external/dsh-ae-plugin bundle 层。
+# 在 profile 的 dsh.profile.bundles 里加入本包后，装配时插入下面这行，
+# 插件 apply 时会把随包技能 ae-video-automation 注册进 skills 注册表。
+- insert:
+    - id: dsh-ae-plugin
+      name: '@dsh-external/dsh-ae-plugin'
+      config: {}

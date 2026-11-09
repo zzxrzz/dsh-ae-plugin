@@ -1,0 +1,9 @@
+node_modules/
+*.tgz
+*.zip
+*.log
+*.result.json
+tmp/
+.scratch/
+.DS_Store
+Thumbs.db
