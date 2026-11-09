@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "description": "DSH × After Effects 自动化插件：随包注册 ae-video-automation 技能，让 AI 通过 ExtendScript 驱动 AE 建合成、做关键帧动画、加特效与渲染导出。",
   "private": false,
-  "author": "sixtysevenlf",
+  "author": "zzxrzz",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sixtysevenlf/dsh-ae-plugin.git"
+    "url": "git+https://github.com/zzxrzz/dsh-ae-plugin.git"
   },
-  "homepage": "https://github.com/sixtysevenlf/dsh-ae-plugin#readme",
+  "homepage": "https://github.com/zzxrzz/dsh-ae-plugin#readme",
   "bugs": {
-    "url": "https://github.com/sixtysevenlf/dsh-ae-plugin/issues"
+    "url": "https://github.com/zzxrzz/dsh-ae-plugin/issues"
   },
   "keywords": [
     "dsh",
